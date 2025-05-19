@@ -1,0 +1,143 @@
+:root {
+    --bg-dark: #121212;
+    --text-dark: #f0f0f0;
+    --bg-light: #f9f9f9;
+    --text-light: #222;
+    --primary: #7c4dff;
+    --hover: #3f3f3f;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+    transition: 0.3s;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: var(--primary);
+  }
+  
+  hr {
+    width: 60%;
+    margin: 1rem auto;
+    height: 4px;
+    background: linear-gradient(to right, #a17cff, #7c4dff);
+    border: none;
+    border-radius: 2px;
+  }
+  
+  main {
+    padding: 1rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    color: var(--primary);
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #444;
+  }
+  
+  thead {
+    background-color: var(--primary);
+    color: #fff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #1e1e1e;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #2c2c2c;
+  }
+  
+  tbody tr:hover {
+    background-color: var(--hover);
+  }
+  
+  footer {
+    text-align: center;
+    margin: 3rem 0 1rem;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  footer p{
+    color: white;
+    letter-spacing: 5px;
+  }
+  footer p span{
+    font-weight: bolder;
+  }
+  #theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    padding: 8px 12px;
+    border: 2px solid var(--primary);
+    background: transparent;
+    color: var(--primary);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #theme-toggle:hover {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  /* Light Theme */
+  body.light {
+    background-color: var(--bg-light);
+    color: var(--text-light);
+  }
+  
+  body.light thead {
+    background-color: #5a2dff;
+  }
+  
+  body.light tbody tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  body.light tbody tr:nth-child(odd) {
+    background-color: #ddd;
+  }
+  
+  body.light tbody tr:hover {
+    background-color: #ccc;
+  }
+  
+  body.light h1, body.light h2 {
+    color: #5a2dff;
+  }
+  
+  body.light footer {
+    color: #555;
+  }
+  
