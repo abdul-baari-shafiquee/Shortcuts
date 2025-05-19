@@ -36,4 +36,4 @@ Stay fast, stay efficient, and flex your dev superpowers 💻⚡
 - 🖱️ Smooth scrolling UI
 - 🤯 Built for **devs, designers, and power users**
 
----
+--- 
